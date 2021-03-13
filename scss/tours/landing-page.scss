@@ -1,0 +1,30 @@
+.tours-content {
+  max-width: 981px;
+  min-height: 200px;
+  margin: 0 auto;
+
+  .tour-image {
+    max-width: 981px;
+    height: 200px;
+    background-image: linear-gradient($overlay, $overlay),
+      url(../assets/tour/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-family: $font-one;
+      font-size: 60px;
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+
+  .all-tours {
+    max-width: 818px;
+    min-width: 200px;
+  }
+}
