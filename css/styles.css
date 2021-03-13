@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: solid purple 1px;
 }
 
 html,
@@ -159,7 +158,7 @@ footer .icon {
   background-repeat: no-repeat;
 }
 footer .copywright {
-  width: 216px;
+  width: 220px;
   height: 14px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12px;
@@ -220,8 +219,6 @@ footer .socials .twitter {
   min-height: 200px;
   margin: 0 auto;
   display: block;
-  background-color: seagreen;
-  background-color: pink;
 }
 .booking-form h1 {
   width: 1280px;
@@ -235,14 +232,14 @@ footer .socials .twitter {
   width: 875px;
   min-height: 60px;
   margin: 0 auto;
-  background-color: steelblue;
+  border-bottom: 20px;
 }
 .booking-form .info-fields .field-one-container {
   width: 875px;
   height: 50px;
   display: flex;
+  border-bottom: 20px;
   justify-content: space-between;
-  background-color: yellowgreen;
 }
 .booking-form .info-fields .field-one-container #field-one {
   width: 325px;
@@ -264,7 +261,7 @@ footer .socials .twitter {
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
-  background-color: yellowgreen;
+  border-bottom: 20px;
 }
 .booking-form .info-fields .field-two-container #field-three {
   width: 325px;
@@ -279,6 +276,159 @@ footer .socials .twitter {
   border: solid #79addc 1px;
   margin-bottom: 15px;
   text-indent: 10px;
+}
+.booking-form .checkin-fields {
+  max-width: 875px;
+  min-height: 60px;
+  margin-top: 25px;
+  margin: 0 auto;
+  display: block;
+}
+.booking-form .check-in {
+  max-width: 875px;
+  height: 60px;
+  font-family: Gill;
+  display: flex;
+}
+.booking-form .text-one {
+  width: 118px;
+  height: 60px;
+  font-family: Gill;
+  opacity: 0.6;
+  font-size: 18px;
+  color: black;
+  padding-top: 15px;
+}
+.booking-form #field-five {
+  width: 757px;
+  height: 60px;
+  border: solid #79addc 1px;
+  margin-bottom: 15px;
+  text-indent: 10px;
+}
+.booking-form #field-five input {
+  text-indent: 10px;
+}
+.booking-form .check-out {
+  max-width: 875px;
+  height: 60px;
+  font-family: Gill;
+  display: flex;
+}
+.booking-form .check-out .text-two {
+  width: 118px;
+  height: 60px;
+  font-family: Gill;
+  opacity: 0.6;
+  font-size: 18px;
+  color: black;
+  padding-top: 20px;
+  margin-top: 5px;
+}
+.booking-form .check-out #field-six {
+  width: 757px;
+  height: 60px;
+  border: solid #79addc 1px;
+  margin-bottom: 15px;
+  text-indent: 10px;
+  margin-top: 10px;
+}
+.booking-form .people-fields {
+  max-width: 1280px;
+  min-height: 60px;
+  margin-top: 25px;
+  display: flex;
+  padding-left: 135px;
+  padding-right: 135px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.booking-form .people-fields .adult-container {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .people-fields .adult-container .adult-text {
+  width: 150px;
+  font-family: Gill;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+.booking-form .people-fields .adult-container .adult-field {
+  width: 105px;
+  height: 40px;
+  border: solid #79addc 1px;
+}
+.booking-form .people-fields .children-container {
+  max-width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .people-fields .children-container .children-text {
+  width: 150px;
+  font-family: Gill;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+.booking-form .people-fields .children-container .children-field {
+  width: 105px;
+  height: 40px;
+  border: solid #79addc 1px;
+}
+.booking-form .people-fields .rooms-container {
+  max-width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .people-fields .rooms-container .rooms-text {
+  width: 150px;
+  font-family: Gill;
+  opacity: 0.6;
+  margin-top: 10px;
+}
+.booking-form .people-fields .rooms-container .rooms-field {
+  width: 105px;
+  height: 40px;
+  border: solid #79addc 1px;
+}
+.booking-form .message-container {
+  max-width: 1280px;
+  min-height: 200px;
+  margin-top: 25px;
+  margin: 0 auto;
+  text-indent: 10px;
+}
+.booking-form .message-container input {
+  width: 875px;
+  min-height: 200px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: solid #79addc 1px;
+  margin-left: 200px;
+}
+.booking-form .message-container input ::placeholder {
+  margin-left: 10px;
+}
+.booking-form .submit-button-container {
+  max-width: 875px;
+  min-height: 140px;
+  margin: 0 auto;
+}
+.booking-form .submit-button {
+  max-width: 875px;
+  min-height: 60px;
+  background-color: #79addc;
+  border-radius: 30px;
+  font-family: Gill;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {

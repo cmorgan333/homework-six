@@ -5,7 +5,6 @@
   display: block;
   // display: flex;
   // justify-content: space-around;
-  background-color: seagreen;
 
   h1 {
     width: 1280px;
@@ -16,7 +15,6 @@
     font-family: $font-one;
     font-size: 60px;
   }
-  background-color: pink;
 
   //   // ===============INFO FIELDS================//
 
@@ -24,7 +22,7 @@
     width: 875px;
     min-height: 60px;
     margin: 0 auto;
-    background-color: steelblue;
+    border-bottom: 20px;
 
     .field-one-container {
       width: 875px;
@@ -32,8 +30,8 @@
       // margin-left: 202px;
       // background-color: teal;
       display: flex;
+      border-bottom: 20px;
       justify-content: space-between;
-      background-color: yellowgreen;
 
       #field-one {
         width: 325px;
@@ -59,10 +57,10 @@
       margin-top: 15px;
       display: flex;
       justify-content: space-between;
+      border-bottom: 20px;
       // display: flex;
       // justify-content: space-between;
       // justify-content: space-between;
-      background-color: yellowgreen;
 
       #field-three {
         width: 325px;
@@ -81,246 +79,212 @@
       }
     }
   }
+
+  // //===================CHECK-IN FIELDS==============//
+  .checkin-fields {
+    max-width: 875px;
+    min-height: 60px;
+    margin-top: 25px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .check-in {
+    max-width: 875px;
+    height: 60px;
+    font-family: $font-two;
+    display: flex;
+    // margin: 0 auto;
+    // opacity: 0.6;
+    // font-size: 18px;
+    // color: $black;
+    // margin-top: 15px;
+  }
+
+  .text-one {
+    width: 118px;
+    height: 60px;
+    // margin-left: 202px;
+    font-family: $font-two;
+    opacity: 0.6;
+    font-size: 18px;
+    color: $black;
+    padding-top: 15px;
+  }
+  #field-five {
+    width: 757px;
+    height: 60px;
+    border: solid $blue 1px;
+    margin-bottom: 15px;
+    text-indent: 10px;
+
+    input {
+      text-indent: 10px;
+    }
+  }
+
+  //   // =======CHECKOUT FIELDS===============//
+
+  .check-out {
+    max-width: 875px;
+    height: 60px;
+    font-family: $font-two;
+    display: flex;
+    // margin: 0 auto;
+
+    .text-two {
+      width: 118px;
+      height: 60px;
+      font-family: $font-two;
+      opacity: 0.6;
+      font-size: 18px;
+      color: $black;
+      padding-top: 20px;
+      margin-top: 5px;
+    }
+
+    #field-six {
+      width: 757px;
+      height: 60px;
+      border: solid $blue 1px;
+      margin-bottom: 15px;
+      text-indent: 10px;
+      margin-top: 10px;
+    }
+  }
+
+  // ================PEOPLE FIELDS================//
+
+  .people-fields {
+    max-width: 1280px;
+    min-height: 60px;
+    margin-top: 25px;
+    display: flex;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-around;
+    margin-top: 20px;
+
+    // ============ADULT CONTAINER==============//
+    .adult-container {
+      width: 200px;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .adult-text {
+        width: 150px;
+        font-family: $font-two;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .adult-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
+    }
+
+    // =============CHILDREN CONTAINER==========//
+
+    .children-container {
+      max-width: 200px;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .children-text {
+        width: 150px;
+        font-family: $font-two;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .children-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
+    }
+
+    // ============ROOMS CONTAINER==============//
+
+    .rooms-container {
+      max-width: 200px;
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+
+      .rooms-text {
+        width: 150px;
+        font-family: $font-two;
+        opacity: 0.6;
+        margin-top: 10px;
+      }
+
+      .rooms-field {
+        width: 105px;
+        height: 40px;
+        border: solid $blue 1px;
+      }
+    }
+  }
+
+  // // =============MESSAGE FIELD======================//
+
+  .message-container {
+    max-width: 1280px;
+    min-height: 200px;
+    margin-top: 25px;
+    margin: 0 auto;
+    text-indent: 10px;
+
+    input {
+      width: 875px;
+      min-height: 200px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border: solid $blue 1px;
+      margin-left: 200px;
+
+      ::placeholder {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  // =============SUBMIT BUTTON=============//
+
+  .submit-button-container {
+    max-width: 875px;
+    min-height: 140px;
+    margin: 0 auto;
+  }
+
+  .submit-button {
+    max-width: 875px;
+    min-height: 60px;
+    // margin: 0 auto;
+    background-color: $blue;
+    border-radius: 30px;
+    font-family: $font-two;
+    font-size: 15px;
+    color: $white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
-// //===================CHECK-IN FIELDS==============//
-// .checkin-fields {
-//   max-width: 875px;
-//   height: 140px;
-//   margin-top: 25px;
-//   display: flex;
-//   background-color: blue;
-
-//   .check-in {
-//     max-width: 150px;
-//     height: 60px;
-//     font-family: $font-two;
-//     display: flex;
-//     margin: 0 auto;
-//     // opacity: 0.6;
-//     // font-size: 18px;
-//     // color: $black;
-//     // margin-top: 15px;
-//   }
-
-//   .text-one {
-//     width: 118px;
-//     height: 60px;
-//     // margin-left: 202px;
-//     font-family: $font-two;
-//     opacity: 0.6;
-//     font-size: 18px;
-//     color: $black;
-//     padding-top: 15px;
-//   }
-
-//   // .checkin-one {
-//   //   width: 19px;
-//   //   height: 19px;
-//   //   background-image: url(../assets/icons/calendar.png);
-//   //   background-size: cover;
-//   //   background-position: center;
-//   //   background-repeat: no-repeat;
-//   // }
-
-//   #field-five {
-//     width: 757px;
-//     height: 60px;
-//     border: solid $blue 1px;
-//     margin-bottom: 15px;
-//     text-indent: 10px;
-
-//     input {
-//       text-indent: 10px;
-//     }
-//   }
-
-//   // =======CHECKOUT FIELDS===============//
-
-//   .check-out {
-//     max-width: 875px;
-//     height: 60px;
-//     font-family: $font-two;
-//     display: flex;
-//     margin: 0 auto;
-
-//     .text-two {
-//       width: 118px;
-//       height: 60px;
-//       font-family: $font-two;
-//       opacity: 0.6;
-//       font-size: 18px;
-//       color: $black;
-//       padding-top: 20px;
-//       margin-top: 5px;
-//     }
-
-//     #field-six {
-//       width: 757px;
-//       height: 60px;
-//       border: solid $blue 1px;
-//       margin-bottom: 15px;
-//       text-indent: 10px;
-//       margin-top: 10px;
-//     }
-//   }
-// }
-// // ================PEOPLE FIELDS================//
-
-// .people-fields {
-//   max-width: 1280px;
-//   min-height: 60px;
-//   margin-top: 25px;
-//   display: flex;
-//   padding-left: 135px;
-//   padding-right: 135px;
-//   justify-content: space-around;
-
-//   // ============ADULT CONTAINER==============//
-//   .adult-container {
-//     width: 200px;
-//     height: 60px;
-//     display: flex;
-//     justify-content: space-between;
-
-//     .adult-text {
-//       width: 150px;
-//       font-family: $font-two;
-//       opacity: 0.6;
-//       margin-top: 10px;
-//     }
-
-//     .adult-field {
-//       width: 105px;
-//       height: 40px;
-//       border: solid $blue 1px;
-//     }
-//   }
-
-//   // =============CHILDREN CONTAINER==========//
-
-//   .children-container {
-//     max-width: 200px;
-//     height: 60px;
-//     display: flex;
-//     justify-content: space-between;
-
-//     .children-text {
-//       width: 150px;
-//       font-family: $font-two;
-//       opacity: 0.6;
-//       margin-top: 10px;
-//     }
-
-//     .children-field {
-//       width: 105px;
-//       height: 40px;
-//       border: solid $blue 1px;
-//     }
-//   }
-
-//   // ============ROOMS CONTAINER==============//
-
-//   .rooms-container {
-//     max-width: 200px;
-//     height: 60px;
-//     display: flex;
-//     justify-content: space-between;
-
-//     .rooms-text {
-//       width: 150px;
-//       font-family: $font-two;
-//       opacity: 0.6;
-//       margin-top: 10px;
-//     }
-
-//     .rooms-field {
-//       width: 105px;
-//       height: 40px;
-//       border: solid $blue 1px;
-//     }
-//   }
-// }
-// // =============MESSAGE FIELD======================//
-
-// .message-container {
-//   max-width: 1280px;
-//   min-height: 200px;
-//   margin-top: 25px;
-//   margin: 0 auto;
-//   text-indent: 10px;
-
-//   input {
-//     width: 875px;
-//     min-height: 200px;
-//     border: solid $blue 1px;
-//     margin-left: 202px;
-
-//     ::placeholder {
-//       margin-left: 10px;
-//     }
-//   }
-
-//   // #field-seven {
-//   //   width: 875px;
-//   //   height: 200px;
-//   //   // margin-left: 202px;
-//   //   margin-left: 202px;
-//   //   border: solid $blue 1px;
-//   // }
-
-//   // #message {
-//   //   width: 875px;
-//   //   height: 200px;
-//   //   border: solid $blue 1px;
-//   //   margin-left: 202px;
-//   //   background-color: teal;
-//   //   // margin-left: 202px;
-//   //   // padding-bottom: 35p;
-
-//   //   ::placeholder {
-//   //     margin-left: 10px;
-//   //   }
-//   // }
-
-//   // =============SUBMIT-BUTTON====================//
-
-//   .submit-button-container {
-//     max-width: 1280px;
-//     min-height: 60px;
 //     // margin-bottom: 35px;
 //     margin-top: 35px;
 //     // background-color: $blue;
 //     // border-radius: 30px;
 //     // align-items: center;
+//     background-color: red;
 
-//     .submit-button {
-//       max-width: 875px;
-//       min-height: 60px;
-//       margin: 0 auto;
-//       background-color: $blue;
-//       border-radius: 30px;
-//       // font-family: $font-two;
-//       // font-size: 20px;
-//       // color: $white;
-//       // text-align: center;
-//       // padding-top: 15px;
-//       // // margin: 0 auto;
-//       // margin-bottom: 30px;
-//     }
-
-//     p {
-//       font-family: $font-two;
-//       font-size: 20px;
-//       color: $white;
-//       height: 20px;
-//       width: 30px;
-//       text-align: center;
-//       padding-top: 15px;
-//       margin: 0 auto;
-//     }
-//   }
-// }
+//
 
 // ===========RESPONSIVENESS==========//
 
