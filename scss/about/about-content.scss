@@ -1,0 +1,152 @@
+.about-content {
+  max-width: 980px;
+  min-height: 740px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 70px;
+
+  .about-text {
+    min-height: 210px;
+    max-width: 980px;
+  }
+
+  h1 {
+    width: 150px;
+    height: 40px;
+    font-family: ProximaNova;
+    font-size: 40px;
+    border-bottom: solid $black 2px;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1.6px;
+  }
+
+  //   =====CLIENT QUOTES SECTION=========//
+
+  .client-content {
+    min-height: 460px;
+    max-width: 676px;
+    margin-top: 50px;
+
+    h3 {
+      width: 240px;
+      height: 35px;
+      font-family: ProximaNova;
+      font-size: 30px;
+      border-bottom: solid $black 2px;
+    }
+
+    .client-one {
+      min-height: 150px;
+      width: 676px;
+      display: flex;
+
+      .client-image {
+        width: 260px;
+        height: 150px;
+      }
+
+      .client1 {
+        background-image: url(../assets/images/about-client-01.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .client-quote {
+        max-width: 416px;
+        min-height: 150px;
+        padding-left: 20px;
+        position: relative;
+
+        p {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 15px;
+        }
+
+        p:last-of-type {
+          margin-bottom: 55px;
+        }
+
+        .client-name {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          font-family: ProximaNova Condensed;
+          color: $blue;
+        }
+      }
+    }
+
+    .client-two {
+      min-height: 150px;
+      width: 676px;
+      display: flex;
+      margin-top: 25px;
+
+      .client-image {
+        width: 260px;
+        height: 150px;
+      }
+
+      .client2 {
+        background-image: url(../assets/images/about-client-02.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .client-quote {
+        max-width: 416px;
+        min-height: 150px;
+        padding-left: 20px;
+        position: relative;
+
+        p {
+          font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+          font-size: 15px;
+        }
+
+        p:last-of-type {
+          margin-bottom: 55px;
+        }
+
+        .client-name {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          font-family: ProximaNova Condensed;
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about-content {
+    padding: 10px;
+  }
+  .client-content {
+    padding: 10px;
+
+    .client-quote {
+      width: 200px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-content {
+    .client-content {
+      display: block;
+    }
+  }
+}
