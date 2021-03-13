@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: solid purple 1px;
 }
 
 html,
@@ -23,10 +24,21 @@ p {
 
 @font-face {
   font-family: Gill;
-  src: url(fonts/GillSans.ttc);
+  src: url(fonts/GillSans.ttf);
 }
 
 @font-face {
   font-family: ProximaNova;
   src: url(fonts/Proxima-Nova-Thinone.otf);
+}
+
+@font-face {
+  font-family: Proxima;
+  src: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+// =========Couldn't get Gill Italic to work======//
+
+@font-face {
+  font-family: Lato;
+  src: url(fonts/Lato/Lato-lightItalic.ttf);
 }

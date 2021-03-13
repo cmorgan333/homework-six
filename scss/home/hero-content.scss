@@ -5,15 +5,14 @@
   margin-top: 100px;
 
   h1 {
-    font-family: ProximaNova;
+    font-family: $font-one;
     font-size: 60px;
     color: $white;
     text-align: center;
   }
 
   p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Lato;
     font-size: 20px;
     color: $white;
     text-align: center;
@@ -30,8 +29,7 @@
     margin-top: 25px;
 
     p {
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
+      font-family: $font-two;
       font-size: 15px;
       color: $white;
       padding-top: 10px;

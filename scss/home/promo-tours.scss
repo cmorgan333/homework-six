@@ -26,7 +26,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       margin: 0 auto;
-      font-family: ProximaNova;
+      font-family: $font-one;
       font-size: 28px;
       color: $white;
       text-align: center;
@@ -34,12 +34,12 @@
 
     h1 {
       margin: 0 auto;
-      padding-top: 40px;
+      padding-top: 60px;
     }
 
     h2 {
-      font-family: ProximaNova;
-      font-size: 15px;
+      font-family: $font-one;
+      font-size: 30px;
       padding-top: 10px;
       padding-bottom: 80px;
     }
