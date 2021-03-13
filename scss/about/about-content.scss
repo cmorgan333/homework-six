@@ -78,8 +78,9 @@
           position: absolute;
           right: 0;
           bottom: 0;
-          font-family: ProximaNova Condensed;
+          font-family: $font-one;
           color: $blue;
+          font-size: 20px;
         }
       }
     }
@@ -122,8 +123,9 @@
           position: absolute;
           right: 0;
           bottom: 0;
-          font-family: ProximaNova Condensed;
+          font-family: $font-one;
           color: $blue;
+          font-size: 20px;
         }
       }
     }

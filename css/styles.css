@@ -55,34 +55,33 @@ p {
   padding-left: 160px;
   padding-right: 160px;
 }
-.promo-tours .promos {
-  height: 304px;
-  width: 236px;
-}
-.promo-tours .promos .promo-one {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-01.jpg);
+.promo-tours .promo {
   height: 304px;
   width: 236px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
-  font-family: Proxima;
-  font-size: 28px;
   color: #ffffff;
   text-align: center;
-}
-.promo-tours .promos h1 {
-  margin: 0 auto;
-  padding-top: 60px;
-}
-.promo-tours .promos h2 {
   font-family: Proxima;
-  font-size: 30px;
-  padding-top: 10px;
-  padding-bottom: 80px;
 }
-.promo-tours .promos .learnmore-button {
+.promo-tours .israel {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-01.jpg);
+}
+.promo-tours h1 {
+  height: 20px;
+  margin: 0 auto;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 47px;
+}
+.promo-tours h2 {
+  font-size: 30px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+.promo-tours .learnmore-button {
   width: 133px;
   height: 40px;
   background-color: #79addc;
@@ -90,41 +89,22 @@ p {
   border-radius: 20px;
   margin: auto;
 }
-.promo-tours .promos .learnmore-button p {
+.promo-tours .learnmore-button p {
   font-size: 10px;
   margin: 0 auto;
-  width: 90px;
+  width: 100px;
   height: 17px;
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.promo-tours .promos .promo-two {
+.promo-tours .usa {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-02.jpg);
-  height: 304px;
-  width: 236px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  font-family: ProximaNova;
-  font-size: 28px;
-  color: #ffffff;
-  text-align: center;
 }
-.promo-tours .promos .promo-three {
+.promo-tours .australia {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-03.jpg);
-  height: 304px;
-  width: 236px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  font-family: ProximaNova;
-  font-size: 28px;
-  color: #ffffff;
-  text-align: center;
 }
 
 @media only screen and (max-width: 1060px) {
@@ -135,7 +115,7 @@ p {
     padding-right: 0;
     display: block;
   }
-  .promo-tours .promos {
+  .promo-tours .promo {
     margin-bottom: 30px;
   }
 }
@@ -606,8 +586,9 @@ nav .links .contact {
   position: absolute;
   right: 0;
   bottom: 0;
-  font-family: ProximaNova Condensed;
+  font-family: Proxima;
   color: #79addc;
+  font-size: 20px;
 }
 .about-content .client-content .client-two {
   min-height: 150px;
@@ -642,8 +623,9 @@ nav .links .contact {
   position: absolute;
   right: 0;
   bottom: 0;
-  font-family: ProximaNova Condensed;
+  font-family: Proxima;
   color: #79addc;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -663,13 +645,9 @@ nav .links .contact {
     display: block;
   }
 }
-.tours-content {
+.tours-content header {
   max-width: 981px;
-  min-height: 200px;
-  margin: 0 auto;
-}
-.tours-content .tour-image {
-  max-width: 981px;
+  margin: 50px auto 0 auto;
   height: 200px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tours-header.jpg);
   background-position: center;
@@ -679,7 +657,7 @@ nav .links .contact {
   justify-content: center;
   align-items: center;
 }
-.tours-content .tour-image h1 {
+.tours-content header span {
   font-family: Proxima;
   font-size: 60px;
   color: #ffffff;

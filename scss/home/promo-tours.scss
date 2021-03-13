@@ -7,94 +7,73 @@
   padding-left: 160px;
   padding-right: 160px;
 
-  .promos {
+  .promo {
     height: 304px;
     width: 236px;
-    // background-image: linear-gradient(to right, $overlay, $overlay);
-    // background-position: center;
-    // background-size: cover;
-    // background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: $white;
+    text-align: center;
+    font-family: $font-one;
+  }
+  // ===============ISRAEL PROMO===============//
 
-    // ===============ISRAEL PROMO===============//
+  .israel {
+    background-image: linear-gradient(to right, $overlay, $overlay),
+      url(../assets/tour/tour-01.jpg);
+  }
 
-    .promo-one {
-      background-image: linear-gradient(to right, $overlay, $overlay),
-        url(../assets/tour/tour-01.jpg);
-      height: 304px;
-      width: 236px;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
+  h1 {
+    height: 20px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 47px;
+  }
+
+  h2 {
+    // font-family: $font-one;
+    font-size: 30px;
+    padding-top: 70px;
+    // padding-bottom: 80px;
+    padding-bottom: 50px;
+  }
+
+  .learnmore-button {
+    width: 133px;
+    height: 40px;
+    background-color: $blue;
+    // // padding-bottom: 30px;
+    // padding-bottom: 10px;
+    z-index: 99;
+    border-radius: 20px;
+    margin: auto;
+
+    p {
+      font-size: 10px;
       margin: 0 auto;
-      font-family: $font-one;
-      font-size: 28px;
-      color: $white;
+      width: 100px;
+      height: 17px;
+      font-size: 15px;
+      margin: 0 auto;
       text-align: center;
+      padding-top: 13px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     }
+  }
+  // ============U.S.A PROMO=====================//
+  .usa {
+    background-image: linear-gradient(to right, $overlay, $overlay),
+      url(../assets/tour/tour-02.jpg);
+  }
 
-    h1 {
-      margin: 0 auto;
-      padding-top: 60px;
-    }
-
-    h2 {
-      font-family: $font-one;
-      font-size: 30px;
-      padding-top: 10px;
-      padding-bottom: 80px;
-    }
-    .learnmore-button {
-      width: 133px;
-      height: 40px;
-      background-color: $blue;
-      // padding-top: 30px
-      z-index: 99;
-      border-radius: 20px;
-      margin: auto;
-
-      p {
-        font-size: 10px;
-        margin: 0 auto;
-        width: 90px;
-        height: 17px;
-        font-size: 15px;
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 15px;
-      }
-    }
-
-    // ============U.S.A PROMO=====================//
-    .promo-two {
-      background-image: linear-gradient(to right, $overlay, $overlay),
-        url(../assets/tour/tour-02.jpg);
-      height: 304px;
-      width: 236px;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      font-family: ProximaNova;
-      font-size: 28px;
-      color: $white;
-      text-align: center;
-    }
-
-    //===============AUSTRALIA PROMO==================//
-    .promo-three {
-      background-image: linear-gradient(to right, $overlay, $overlay),
-        url(../assets/tour/tour-03.jpg);
-      height: 304px;
-      width: 236px;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      margin: 0 auto;
-      font-family: ProximaNova;
-      font-size: 28px;
-      color: $white;
-      text-align: center;
-    }
+  //===============AUSTRALIA PROMO==================//
+  .australia {
+    background-image: linear-gradient(to right, $overlay, $overlay),
+      url(../assets/tour/tour-03.jpg);
   }
 }
 
@@ -106,7 +85,7 @@
     padding-right: 0;
     display: block;
 
-    .promos {
+    .promo {
       margin-bottom: 30px;
     }
   }

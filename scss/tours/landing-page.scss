@@ -1,10 +1,6 @@
 .tours-content {
-  max-width: 981px;
-  min-height: 200px;
-  margin: 0 auto;
-
-  .tour-image {
-    max-width: 981px;
+  header {
+    @include center(981px, 50px auto 0 auto);
     height: 200px;
     background-image: linear-gradient($overlay, $overlay),
       url(../assets/tour/tours-header.jpg);
@@ -15,7 +11,7 @@
     justify-content: center;
     align-items: center;
 
-    h1 {
+    span {
       font-family: $font-one;
       font-size: 60px;
       color: $white;
