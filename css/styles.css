@@ -874,3 +874,73 @@ nav .links .contact {
 .individual-tours .tour-images .six {
   background-image: url(../assets/tour/tour-usa/usa-tour-03.jpg);
 }
+
+.individual-tours .australia-main {
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.individual-tours .australia-main h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.individual-tours .australia-main h4 {
+  font-size: 30px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
+}
+.individual-tours .tour-images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.individual-tours .tour-images .seven {
+  background-image: url(../assets/tour/tour-aus/aus-tour-01.jpg);
+}
+.individual-tours .tour-images .eight {
+  background-image: url(../assets/tour/tour-aus/aus-tour-02.jpg);
+}
+.individual-tours .tour-images .nine {
+  background-image: url(../assets/tour/tour-aus/aus-tour-03.jpg);
+}
+
+.individual-tours .newz-main {
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-04.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.individual-tours .newz-main h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.individual-tours .newz-main h4 {
+  font-size: 30px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
+}
+.individual-tours .tour-images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.individual-tours .tour-images .ten {
+  background-image: url(../assets/tour/tour-nz/nz-tour-01.jpg);
+}
+.individual-tours .tour-images .eleven {
+  background-image: url(../assets/tour/tour-nz/nz-tour-02.jpg);
+}
+.individual-tours .tour-images .twelve {
+  background-image: url(../assets/tour/tour-nz/nz-tour-03.jpg);
+}

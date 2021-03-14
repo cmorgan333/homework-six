@@ -1,0 +1,44 @@
+.individual-tours {
+  .australia-main {
+    height: 413px;
+    background-image: linear-gradient($overlay, $overlay),
+      url(../assets/tour/tour-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $font-one;
+    color: $white;
+
+    h1 {
+      font-size: 60px;
+      margin-top: 30px;
+      margin-left: 30px;
+    }
+
+    h4 {
+      font-size: 30px;
+      padding-top: 275px;
+      //   margin-left: 350px;
+      text-align: right;
+      padding-right: 15px;
+    }
+  }
+
+  .tour-images {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .seven {
+      background-image: url(../assets/tour/tour-aus/aus-tour-01.jpg);
+    }
+
+    .eight {
+      background-image: url(../assets/tour/tour-aus/aus-tour-02.jpg);
+    }
+
+    .nine {
+      background-image: url(../assets/tour/tour-aus/aus-tour-03.jpg);
+    }
+  }
+}
