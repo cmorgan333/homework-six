@@ -745,14 +745,12 @@ nav .links .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
 }
 
-.israel-tour {
+.tour-israel {
   max-width: 981px;
   margin: 0 auto;
   min-height: 200px;
-  background-color: teal;
-  display: block;
 }
-.israel-tour header {
+.tour-israel header {
   max-width: 981px;
   margin: 49px auto 0 auto;
   height: 413px;
@@ -764,20 +762,46 @@ nav .links .contact {
   font-family: Proxima;
   color: #ffffff;
 }
-.israel-tour h1 {
+.tour-israel header h1 {
   font-size: 60px;
   margin-top: 30px;
   margin-left: 30px;
 }
-.israel-tour h4 {
+.tour-israel header h4 {
   font-size: 30px;
   padding-top: 375px;
   margin-left: 100px;
 }
-
-.tour-images {
+.tour-israel .tour-images {
   max-width: 981px;
   margin: 40px auto 0 auto;
   height: 347px;
   background-color: violet;
+  display: flex;
+  justify-content: space-between;
+}
+.tour-israel .tour-images .image {
+  width: 298px;
+  height: 347px;
+  background-color: purple;
+}
+.tour-israel .tour-text {
+  margin-top: 29px;
+  min-height: 790px;
+}
+.tour-israel .tour-text .text {
+  min-height: 228px;
+}
+.tour-israel .tour-text .text h1 {
+  width: 170px;
+  height: 65px;
+  font-family: Proxima;
+  font-size: 60px;
+  border-bottom: solid black 2px;
+}
+.tour-israel .tour-text .text p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1.25px;
 }
