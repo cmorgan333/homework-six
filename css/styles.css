@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: solid purple 5px;
 }
 
 html,
@@ -646,9 +645,6 @@ nav .links .contact {
     display: block;
   }
 }
-.tours-content {
-  background-color: violet;
-}
 .tours-content header {
   max-width: 981px;
   margin: 50px auto 0 auto;
@@ -674,7 +670,7 @@ nav .links .contact {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: turquoise;
+  padding-bottom: 100px;
 }
 .tours-content .all-tours .promo {
   width: 236px;
@@ -715,7 +711,7 @@ nav .links .contact {
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .tours-content .all-tours .israel {
@@ -726,4 +722,62 @@ nav .links .contact {
 }
 .tours-content .all-tours .australia {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-03.jpg);
+}
+.tours-content .all-tours .newz {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-04.jpg);
+}
+.tours-content .all-tours .newz h1 {
+  font-size: 50px;
+}
+.tours-content .all-tours .france {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-05.jpg);
+}
+.tours-content .all-tours .egypt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-06.jpg);
+}
+.tours-content .all-tours .japan {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-07.jpg);
+}
+.tours-content .all-tours .canada {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-08.jpg);
+}
+.tours-content .all-tours .uae {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
+}
+
+.israel-tour {
+  max-width: 981px;
+  margin: 0 auto;
+  min-height: 200px;
+  background-color: teal;
+  display: block;
+}
+.israel-tour header {
+  max-width: 981px;
+  margin: 49px auto 0 auto;
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.israel-tour h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.israel-tour h4 {
+  font-size: 30px;
+  padding-top: 375px;
+  margin-left: 100px;
+}
+
+.tour-images {
+  max-width: 981px;
+  margin: 40px auto 0 auto;
+  height: 347px;
+  background-color: violet;
 }
