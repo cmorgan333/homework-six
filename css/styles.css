@@ -776,14 +776,24 @@ nav .links .contact {
   max-width: 981px;
   margin: 40px auto 0 auto;
   height: 347px;
-  background-color: violet;
   display: flex;
   justify-content: space-between;
 }
 .tour-israel .tour-images .image {
   width: 298px;
   height: 347px;
-  background-color: purple;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tour-israel .tour-images .one {
+  background-image: url(../assets/tour/tour-israel/israel-tour-01.jpg);
+}
+.tour-israel .tour-images .two {
+  background-image: url(../assets/tour/tour-israel/israel-tour-02.jpg);
+}
+.tour-israel .tour-images .three {
+  background-image: url(../assets/tour/tour-israel/israel-tour-03.jpg);
 }
 .tour-israel .tour-text {
   margin-top: 29px;

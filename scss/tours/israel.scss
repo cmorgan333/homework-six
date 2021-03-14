@@ -31,14 +31,27 @@
   .tour-images {
     @include center(981px, 40px auto 0 auto);
     height: 347px;
-    background-color: violet;
     display: flex;
     justify-content: space-between;
 
     .image {
       width: 298px;
       height: 347px;
-      background-color: purple;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .one {
+      background-image: url(../assets/tour/tour-israel/israel-tour-01.jpg);
+    }
+
+    .two {
+      background-image: url(../assets/tour/tour-israel/israel-tour-02.jpg);
+    }
+
+    .three {
+      background-image: url(../assets/tour/tour-israel/israel-tour-03.jpg);
     }
   }
 
