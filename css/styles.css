@@ -1014,3 +1014,108 @@ nav .links .contact {
 .individual-tours .tour-images .eighteen {
   background-image: url(../assets/tour/tour-egypt/egypt-tour-03.jpg);
 }
+
+.individual-tours .japan-main {
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-07.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.individual-tours .japan-main h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.individual-tours .japan-main h4 {
+  font-size: 30px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
+}
+.individual-tours .tour-images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.individual-tours .tour-images .nineteen {
+  background-image: url(../assets/tour/tour-japan/japan-tour-01.jpg);
+}
+.individual-tours .tour-images .twenty {
+  background-image: url(../assets/tour/tour-japan/japan-tour-02.jpg);
+}
+.individual-tours .tour-images .twentyone {
+  background-image: url(../assets/tour/tour-japan/japan-tour-03.jpg);
+}
+
+.individual-tours .canada-main {
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-08.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.individual-tours .canada-main h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.individual-tours .canada-main h4 {
+  font-size: 30px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
+}
+.individual-tours .tour-images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.individual-tours .tour-images .twentytwo {
+  background-image: url(../assets/tour/tour-canada/canada-tour-01.jpg);
+}
+.individual-tours .tour-images .twentythree {
+  background-image: url(../assets/tour/tour-canada/canada-tour-02.jpg);
+}
+.individual-tours .tour-images .twentyfour {
+  background-image: url(../assets/tour/tour-canada/canada-tour-03.jpg);
+}
+
+.individual-tours .uae-main {
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.individual-tours .uae-main h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.individual-tours .uae-main h4 {
+  font-size: 30px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
+}
+.individual-tours .tour-images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.individual-tours .tour-images .twentyfive {
+  background-image: url(../assets/tour/tour-uae/uae-tour-01.jpg);
+}
+.individual-tours .tour-images .twentysix {
+  background-image: url(../assets/tour/tour-uae/uae-tour-02.jpg);
+}
+.individual-tours .tour-images .twentyseven {
+  background-image: url(../assets/tour/tour-uae/uae-tour-03.jpg);
+}
