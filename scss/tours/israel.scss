@@ -1,9 +1,9 @@
-.tour-israel {
+.individual-tours {
   @include center(981px);
   min-height: 200px;
   //   display: block;
 
-  header {
+  .israel-main {
     @include center(981px, 49px auto 0 auto);
     height: 413px;
     background-image: linear-gradient($overlay, $overlay),
@@ -76,7 +76,33 @@
         font-size: 16px;
         line-height: 19px;
         letter-spacing: 1.25px;
+        margin-top: 37px;
       }
     }
+  }
+}
+
+.learnmore-button {
+  width: 133px;
+  height: 40px;
+  background-color: $blue;
+  z-index: 99;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 100px;
+
+  p {
+    font-size: 15px;
+    margin: 0 auto;
+    width: 100px;
+    height: 17px;
+    font-size: 15px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: $white;
+    margin-top: -30px;
   }
 }

@@ -745,12 +745,12 @@ nav .links .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
 }
 
-.tour-israel {
+.individual-tours {
   max-width: 981px;
   margin: 0 auto;
   min-height: 200px;
 }
-.tour-israel header {
+.individual-tours .israel-main {
   max-width: 981px;
   margin: 49px auto 0 auto;
   height: 413px;
@@ -762,56 +762,115 @@ nav .links .contact {
   font-family: Proxima;
   color: #ffffff;
 }
-.tour-israel header h1 {
+.individual-tours .israel-main h1 {
   font-size: 60px;
   margin-top: 30px;
   margin-left: 30px;
 }
-.tour-israel header h4 {
+.individual-tours .israel-main h4 {
   font-size: 30px;
   padding-top: 375px;
   margin-left: 100px;
 }
-.tour-israel .tour-images {
+.individual-tours .tour-images {
   max-width: 981px;
   margin: 40px auto 0 auto;
   height: 347px;
   display: flex;
   justify-content: space-between;
 }
-.tour-israel .tour-images .image {
+.individual-tours .tour-images .image {
   width: 298px;
   height: 347px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.tour-israel .tour-images .one {
+.individual-tours .tour-images .one {
   background-image: url(../assets/tour/tour-israel/israel-tour-01.jpg);
 }
-.tour-israel .tour-images .two {
+.individual-tours .tour-images .two {
   background-image: url(../assets/tour/tour-israel/israel-tour-02.jpg);
 }
-.tour-israel .tour-images .three {
+.individual-tours .tour-images .three {
   background-image: url(../assets/tour/tour-israel/israel-tour-03.jpg);
 }
-.tour-israel .tour-text {
+.individual-tours .tour-text {
   margin-top: 29px;
   min-height: 790px;
 }
-.tour-israel .tour-text .text {
+.individual-tours .tour-text .text {
   min-height: 228px;
 }
-.tour-israel .tour-text .text h1 {
+.individual-tours .tour-text .text h1 {
   width: 170px;
   height: 65px;
   font-family: Proxima;
   font-size: 60px;
   border-bottom: solid black 2px;
 }
-.tour-israel .tour-text .text p {
+.individual-tours .tour-text .text p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 1.25px;
+  margin-top: 37px;
+}
+
+.learnmore-button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  z-index: 99;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.learnmore-button p {
+  font-size: 15px;
+  margin: 0 auto;
+  width: 100px;
+  height: 17px;
+  font-size: 15px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ffffff;
+  margin-top: -30px;
+}
+
+.individual-tours .usa-main {
+  height: 413px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Proxima;
+  color: #ffffff;
+}
+.individual-tours .usa-main h1 {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.individual-tours .usa-main h4 {
+  font-size: 30px;
+  padding-top: 275px;
+  text-align: right;
+  padding-right: 15px;
+}
+.individual-tours .tour-images {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.individual-tours .tour-images .four {
+  background-image: url(../assets/tour/tour-usa/usa-tour-01.jpg);
+}
+.individual-tours .tour-images .five {
+  background-image: url(../assets/tour/tour-usa/usa-tour-02.jpg);
+}
+.individual-tours .tour-images .six {
+  background-image: url(../assets/tour/tour-usa/usa-tour-03.jpg);
 }
