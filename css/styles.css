@@ -212,14 +212,14 @@ footer .socials .twitter {
   font-size: 60px;
 }
 .booking-form .info-fields {
-  width: 875px;
+  max-width: 875px;
   min-height: 60px;
   margin: 0 auto;
   border-bottom: 20px;
 }
 .booking-form .info-fields .field-one-container {
-  width: 875px;
-  height: 50px;
+  max-width: 875px;
+  min-height: 50px;
   display: flex;
   border-bottom: 20px;
   justify-content: space-between;
@@ -239,8 +239,8 @@ footer .socials .twitter {
   text-indent: 10px;
 }
 .booking-form .info-fields .field-two-container {
-  width: 875px;
-  height: 60px;
+  max-width: 875px;
+  min-height: 60px;
   margin-top: 15px;
   display: flex;
   justify-content: space-between;
@@ -383,7 +383,7 @@ footer .socials .twitter {
   text-indent: 10px;
 }
 .booking-form .message-container input {
-  width: 875px;
+  max-width: 875px;
   min-height: 200px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -412,6 +412,97 @@ footer .socials .twitter {
   align-items: center;
 }
 
+@media only screen and (max-width: 1100px) {
+  .booking-form {
+    width: 375px;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin: 0 auto;
+    background-color: violet;
+  }
+  .booking-form h1 {
+    padding-left: 0;
+  }
+  .booking-form .info-fields {
+    width: 375px;
+    display: block;
+  }
+  .booking-form .info-fields .field-one-container {
+    width: 375px;
+    display: block;
+  }
+  .booking-form .info-fields .field-one-container #field-one {
+    width: 375px;
+  }
+  .booking-form .info-fields .field-one-container #field-two {
+    width: 375px;
+  }
+  .booking-form .info-fields .field-two-container {
+    width: 375px;
+    display: block;
+  }
+  .booking-form .info-fields .field-two-container #field-three {
+    width: 375px;
+    height: 50px;
+  }
+  .booking-form .info-fields .field-two-container #field-four {
+    width: 375px;
+    height: 50px;
+  }
+  .booking-form .checkin-fields {
+    width: 375px;
+    display: block;
+    margin-left: 0;
+  }
+  .booking-form .checkin-fields .check-in {
+    width: 375px;
+  }
+  .booking-form .checkin-fields .check-in .text-one {
+    width: 100px;
+    font-size: 15px;
+  }
+  .booking-form .checkin-fields .check-in #field-five {
+    width: 275px;
+  }
+  .booking-form .checkin-fields .check-out {
+    width: 375px;
+  }
+  .booking-form .checkin-fields .text-two {
+    width: 100px;
+    font-size: 15px;
+  }
+  .booking-form .checkin-fields #field-six {
+    width: 275px;
+  }
+  .booking-form .people-fields {
+    width: 375px;
+    min-height: 400px;
+    display: block;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    margin-top: 0;
+    margin-top: 50px;
+  }
+  .booking-form .people-fields .adult-container {
+    margin-bottom: 25px;
+  }
+  .booking-form .people-fields .children-container {
+    margin-bottom: 25px;
+  }
+  .booking-form .people-fields .rooms-container {
+    margin-bottom: 25px;
+  }
+  .booking-form input {
+    width: 350px;
+    background-color: teal;
+    margin-left: 0;
+  }
+}
 nav {
   max-width: 980px;
   height: 60px;
@@ -759,6 +850,13 @@ nav .links .contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
 }
 
+@media only screen and (max-width: 600px) {
+  .all-tours {
+    width: 375;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .individual-tours {
   max-width: 981px;
   margin: 0 auto;
@@ -854,6 +952,22 @@ nav .links .contact {
   margin-top: -30px;
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .usa-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-02.jpg);
@@ -889,6 +1003,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-usa/usa-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .australia-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-03.jpg);
@@ -924,6 +1054,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-aus/aus-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .newz-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-04.jpg);
@@ -959,6 +1105,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-nz/nz-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .france-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-05.jpg);
@@ -994,6 +1156,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-france/france-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .egypt-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-06.jpg);
@@ -1029,6 +1207,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-egypt/egypt-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .japan-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-07.jpg);
@@ -1064,6 +1258,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-japan/japan-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .canada-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-08.jpg);
@@ -1099,6 +1309,22 @@ nav .links .contact {
   background-image: url(../assets/tour/tour-canada/canada-tour-03.jpg);
 }
 
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
 .individual-tours .uae-main {
   height: 413px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-09.jpg);
@@ -1132,4 +1358,21 @@ nav .links .contact {
 }
 .individual-tours .tour-images .twentyseven {
   background-image: url(../assets/tour/tour-uae/uae-tour-03.jpg);
+}
+
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
 }

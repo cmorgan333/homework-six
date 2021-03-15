@@ -106,3 +106,20 @@
     margin-top: -30px;
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .tour-images {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .tour-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+  }
+
+  .learnmore-button {
+    margin-top: 25px;
+  }
+}
