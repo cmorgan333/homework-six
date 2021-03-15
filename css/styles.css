@@ -380,10 +380,12 @@ footer .socials .twitter {
 .booking-form .message-container {
   max-width: 1280px;
   min-height: 200px;
+  margin-top: 25px;
+  margin: 0 auto;
   text-indent: 10px;
 }
 .booking-form .message-container input {
-  max-width: 875px;
+  width: 875px;
   min-height: 200px;
   margin-top: 20px;
   margin-bottom: 30px;
@@ -420,7 +422,6 @@ footer .socials .twitter {
     padding-right: 0;
     display: block;
     margin: 0 auto;
-    background-color: violet;
   }
   .booking-form h1 {
     padding-left: 0;
@@ -443,11 +444,11 @@ footer .socials .twitter {
     width: 375px;
     display: block;
   }
-  .booking-form .info-fields .field-two-container #field-three {
+  .booking-form .info-fields #field-three {
     width: 375px;
     height: 50px;
   }
-  .booking-form .info-fields .field-two-container #field-four {
+  .booking-form .info-fields #field-four {
     width: 375px;
     height: 50px;
   }
@@ -497,9 +498,8 @@ footer .socials .twitter {
   .booking-form .people-fields .rooms-container {
     margin-bottom: 25px;
   }
-  .booking-form input {
+  .booking-form .people-fields input {
     width: 350px;
-    background-color: teal;
     margin-left: 0;
   }
 }
@@ -723,21 +723,17 @@ nav .links .contact {
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1035px) {
   .about-content {
-    padding: 10px;
+    padding: 20px;
   }
 
   .client-content {
-    padding: 10px;
+    padding: 20px;
   }
-  .client-content .client-quote {
+
+  .client-quote {
     width: 200px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .about-content .client-content {
-    display: block;
   }
 }
 .tours-content header {

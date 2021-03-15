@@ -243,12 +243,12 @@
   .message-container {
     max-width: 1280px;
     min-height: 200px;
-    // margin-top: 25px;
-    // margin: 0 auto;
+    margin-top: 25px;
+    margin: 0 auto;
     text-indent: 10px;
 
     input {
-      max-width: 875px;
+      width: 875px;
       min-height: 200px;
       margin-top: 20px;
       margin-bottom: 30px;
@@ -296,7 +296,6 @@
     padding-right: 0;
     display: block;
     margin: 0 auto;
-    background-color: violet;
 
     h1 {
       padding-left: 0;
@@ -324,16 +323,15 @@
         width: 375px;
         // height: 140px;
         display: block;
+      }
+      #field-three {
+        width: 375px;
+        height: 50px;
+      }
 
-        #field-three {
-          width: 375px;
-          height: 50px;
-        }
-
-        #field-four {
-          width: 375px;
-          height: 50px;
-        }
+      #field-four {
+        width: 375px;
+        height: 50px;
       }
     }
 
@@ -397,65 +395,14 @@
       .rooms-container {
         margin-bottom: 25px;
       }
-    }
 
-    // .selections {
-    //   display: block;
-    // }
+      input {
+        width: 350px;
+        // padding-left: 100px;
+        margin-left: 0;
 
-    //     // ===========message responsiveness==========//
-
-    // .message-container {
-    //   // width: 375px;
-    //   // margin-left: 0;
-    //   // display: flex;
-    //   // justify-content: center;
-    //   // align-items: center;
-    //   background-color: purple;
-    // }
-
-    // height: 220px;
-    // justify-content: center;
-    // display: flex;
-    // align-items: left;
-
-    // #field-seven {
-    //   width: 375px;
-    //   // padding-left: 10px;
-    //   margin-left: 0;
-    // }
-
-    input {
-      width: 350px;
-      background-color: teal;
-      // padding-left: 100px;
-      margin-left: 0;
-
-      // margin: 0 auto;
+        // margin: 0 auto;
+      }
     }
   }
 }
-
-//     // ============SUBMIT BUTTON RESPONSIVENESS=======//
-
-//     .submit-button-container {
-//       width: 375px;
-//       display: block;
-//       padding-top: 30px;
-//       padding-bottom: 30px;
-//       margin-bottom: 100px;
-//       // display: block;
-//       // padding-top: 30px;
-//       // padding-bottom: 30px;
-//       // margin-bottom: 100px;
-//       // background-color: yellow;
-
-//       .submit-button {
-//         width: 375px;
-//         // padding-bottom: 30px;
-//         // margin-bottom: 100px;
-//         // background-color: purple;
-//       }
-//     }
-//   }
-// }

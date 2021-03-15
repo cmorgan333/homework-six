@@ -133,23 +133,14 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1035px) {
   .about-content {
-    padding: 10px;
+    padding: 20px;
   }
   .client-content {
-    padding: 10px;
-
-    .client-quote {
-      width: 200px;
-    }
+    padding: 20px;
   }
-}
-
-@media only screen and (max-width: 500px) {
-  .about-content {
-    .client-content {
-      display: block;
-    }
+  .client-quote {
+    width: 200px;
   }
 }
