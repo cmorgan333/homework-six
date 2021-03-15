@@ -88,8 +88,9 @@ p {
   z-index: 99;
   border-radius: 20px;
   margin: auto;
+  padding-top: 10px;
 }
-.promo-tours .learnmore-button p {
+.promo-tours .learnmore-button a {
   font-size: 15px;
   margin: 0 auto;
   width: 100px;
@@ -97,8 +98,10 @@ p {
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
 }
 .promo-tours .usa {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-02.jpg);
@@ -520,7 +523,7 @@ nav .links .contact {
 
 .about-content {
   max-width: 980px;
-  min-height: 740px;
+  min-height: 840px;
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 70px;
@@ -595,6 +598,7 @@ nav .links .contact {
   width: 676px;
   display: flex;
   margin-top: 25px;
+  padding-bottom: 50px;
 }
 .about-content .client-content .client-two .client-image {
   width: 260px;
@@ -691,19 +695,27 @@ nav .links .contact {
   padding-top: 47px;
 }
 .tours-content .all-tours h2 {
+  font-family: Proxima;
   font-size: 30px;
-  padding-top: 70px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .tours-content .all-tours .learnmore-button {
   width: 133px;
   height: 40px;
   background-color: #79addc;
+  padding-bottom: 30px;
+  padding-bottom: 10px;
   z-index: 99;
   border-radius: 20px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-.tours-content .all-tours .learnmore-button p {
+.tours-content .all-tours .learnmore-button a {
   font-size: 15px;
   margin: 0 auto;
   width: 100px;
@@ -711,8 +723,10 @@ nav .links .contact {
   font-size: 15px;
   margin: 0 auto;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
 }
 .tours-content .all-tours .israel {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/tour/tour-01.jpg);
